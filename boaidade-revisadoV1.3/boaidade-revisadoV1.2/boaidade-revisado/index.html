@@ -1,0 +1,217 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Conecta 60+ | Tecnologia com carinho</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Nunito:wght@400;600;700;800;900&family=Poppins:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+  <div id="app"><div class="app-shell">
+        <header class="site-header"><div class="container-xl-custom w-100 d-flex align-items-center justify-content-between"><a class="d-flex align-items-center gap-3 text-decoration-none" href="#landing"><div class="logo-mark">60+</div><span class="brand">Conecta 60+</span></a><nav class="d-flex gap-4 hidden-mobile"><a class="fw-bold text-decoration-none" style="color:var(--navy)" href="#landing">Início</a><a class="fw-bold text-decoration-none" style="color:var(--navy)" href="#sobre">Sobre</a><a class="fw-bold text-decoration-none" style="color:var(--navy)" href="#como-funciona">Como Funciona</a></nav><div class="d-flex gap-2 hidden-mobile"><button class="btn-outline-main" onclick="go('login')">Entrar</button><button class="btn-main" onclick="go('register')">Cadastro Grátis</button></div><button class="btn btn-link show-mobile d-none" onclick="toast('Use os botões de acessibilidade ou role a página para navegar')">☰</button></div></header>
+        <main>
+            <section class="hero">
+                <div class="container-xl-custom w-100">
+                    <div class="hero-content">
+                        <div class="eyebrow">★ Plataforma 100% gratuita para idosos</div>
+                        <h1>Aprendendo a se conectar com o mundo digital</h1>
+                        <p>O Conecta 60+ é uma plataforma gratuita que ensina idosos a usar redes sociais com segurança, confiança e muito carinho.</p>
+                        <div class="d-flex flex-wrap gap-3 mt-4">
+                            <button class="btn-soft" onclick="go('register')">Comece Agora — É Grátis!</button>
+                            <button class="btn btn-lg rounded-3 px-4 text-white border border-2" onclick="document.getElementById('sobre').scrollIntoView()">Saiba Mais</button>
+                        </div>
+                        <div class="d-flex flex-wrap gap-4 mt-5 text-white fw-bold">
+                            <span>✓ +500 alunos</span>
+                            <span>✓ 100% gratuito</span>
+                            <span>✓ Suporte humano</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <section id="sobre" class="section">
+                <div class="section-title">
+                    <small>Nossa missão</small>
+                    <h2>Sobre o Projeto</h2>
+                    <div class="mx-auto" style="width:72px;height:4px;background:var(--sky);border-radius:3px"></div>
+                </div>
+                <div class="row align-items-center g-5">
+                    <div class="col-lg-6">
+                        <h3 class="fw-900" style="font-family:Poppins">Tecnologia que aproxima, não que assusta.</h3>
+                        <p class="lead mt-3">Criamos o Conecta 60+ para que pessoas com mais de 60 anos possam aproveitar tudo o que a tecnologia tem de melhor, no seu ritmo e com acolhimento.</p>
+                        <p class="text-secondary">Nossas aulas foram pensadas para serem simples, claras e práticas. Você aprende fazendo, com suporte humano em cada etapa.</p>
+                    </div>
+                    <div class="col-lg-6">
+                        <img class="img-fluid rounded-4 shadow" src="assets/idosos-troca.jpg" alt="Pessoas idosas usando celulares">
+                    </div>
+                </div>
+            </section>
+            
+            <section id="como-funciona" class="section pt-0">
+                <div class="section-title">
+                    <small>É simples começar</small>
+                    <h2>Como funciona?</h2>
+                </div>
+                <div class="row g-4">
+                    <div class="col-md-4">
+                        <div class="feature-card">
+                            <div class="feature-icon">📝</div>
+                            <h4 class="fw-bold mt-3">1. Crie sua conta</h4>
+                            <p class="text-secondary">Cadastro rápido, seguro e totalmente gratuito.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="feature-card">
+                            <div class="feature-icon">🎓</div>
+                            <h4 class="fw-bold mt-3">2. Escolha sua aula</h4>
+                            <p class="text-secondary">Aprenda WhatsApp, redes sociais, segurança e muito mais.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="feature-card">
+                            <div class="feature-icon">💙</div>
+                            <h4 class="fw-bold mt-3">3. Conte com a gente</h4>
+                            <p class="text-secondary">Suporte humano para nunca se sentir sozinho.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <section class="section pt-0">
+                <div class="row g-4">
+                    <div class="col-6 col-lg-3">
+                        <div class="stat-card">
+                            <div>👥</div>
+                            <strong>+500</strong>
+                            <span>Idosos Ajudados</span>
+                        </div>
+                    </div>
+                    <div class="col-6 col-lg-3">
+                        <div class="stat-card">
+                            <div>⭐</div>
+                            <strong>100%</strong>
+                            <span>Gratuito</span>
+                        </div>
+                    </div>
+                    <div class="col-6 col-lg-3">
+                        <div class="stat-card">
+                            <div>📚</div>
+                            <strong>+20</strong>
+                            <span>Aulas Disponíveis</span>
+                        </div>
+                    </div>
+                    <div class="col-6 col-lg-3">
+                        <div class="stat-card">
+                            <div>🏆</div>
+                            <strong>4.9</strong>
+                            <span>Avaliação Média</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <section class="section pt-0">
+                <div class="section-title">
+                    <small>Quem já aprendeu</small>
+                    <h2>Histórias que inspiram</h2>
+                </div>
+                <div class="row g-4">
+                    <div class="col-md-4">
+                        <div class="testimonial">
+                            <div class="d-flex align-items-center gap-3">
+                                <img class="avatar" src="assets/image-1.jpg" alt="Casal de idosos sorrindo enquanto usa um celular" loading="lazy">
+                                <div><strong>Maria Aparecida</strong><br><small>68 anos</small></div>
+                            </div>
+                            <p class="mt-3 mb-0">“Agora converso com meus netos pelo WhatsApp todos os dias e ainda mando fotos!”</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="testimonial">
+                            <div class="d-flex align-items-center gap-3">
+                                <img class="avatar" src="assets/idosos-troca.jpg" alt="Homem idoso aprendendo a usar um celular" loading="lazy">
+                                <div><strong>José Carlos</strong><br><small>72 anos</small></div>
+                            </div>
+                            <p class="mt-3 mb-0">“As aulas são muito fáceis de entender. Me sinto muito mais confiante.”</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="testimonial">
+                            <div class="d-flex align-items-center gap-3">
+                                <img class="avatar" src="assets/images.jpg" alt="Grupo de pessoas idosas reunidas com um celular" loading="lazy">
+                                <div><strong>Conceição Ferreira</strong><br><small>65 anos</small></div>
+                            </div>
+                            <p class="mt-3 mb-0">“Foi transformador compartilhar momentos da minha vida com toda a família.”</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        
+        <footer class="footer">
+            <div class="container-xl-custom">
+                <div class="row g-5">
+                    <div class="col-md-5">
+                        <div class="d-flex align-items-center gap-3 mb-3">
+                            <div class="logo-mark" style="background:#2d4a7a">60+</div>
+                            <span class="fs-4 fw-bold">Conecta 60+</span>
+                        </div>
+                        <p class="text-white-50">Conectando gerações com tecnologia, amor e muita paciência.</p>
+                    </div>
+                    <div class="col-md-3">
+                        <h5>Links Úteis</h5>
+                        <a class="d-block mb-2" href="#sobre">Sobre Nós</a>
+                        <a class="d-block mb-2" href="#como-funciona">Como Funciona</a>
+                        <a class="d-block mb-2" href="#register">Cursos e Aulas</a>
+                    </div>
+                    <div class="col-md-4">
+                        <h5>Contato</h5>
+                        <p class="text-white-50 mb-2">✉ contato@conecta60.com.br</p>
+                        <p class="text-white-50 mb-2">☎ (11) 3456-7890</p>
+                        <p class="text-white-50">📍 São Paulo — SP, Brasil</p>
+                    </div>
+                </div>
+                <hr class="border-light opacity-25">
+                <small class="text-white-50">© 2024 Conecta 60+ — Todos os direitos reservados.</small>
+            </div>
+        </footer>
+    </div></div>
+  <div class="access-toolbar" aria-label="Recursos de acessibilidade">
+    <button class="access-btn" id="themeBtn" title="Alternar tema">☾ <span>Tema</span></button>
+    <button class="access-btn" id="fontBtn" title="Aumentar fonte">A+ <span>Fonte</span></button>
+    <button class="access-btn" id="audioBtn" type="button" title="Abrir leitura em voz alta" aria-label="Abrir leitura em voz alta" aria-controls="readerPanel" aria-expanded="false">🔊 <span>Ler texto</span></button>
+  </div>
+  <aside id="readerPanel" class="reader-panel" hidden aria-labelledby="readerTitle">
+    <div class="reader-panel-head">
+      <div><strong id="readerTitle">Leitura em voz alta</strong><small>Escolha o texto e a voz para ouvir.</small></div>
+      <button id="readerClose" class="reader-close" type="button" aria-label="Fechar leitor">×</button>
+    </div>
+    <ol class="reader-instructions">
+      <li>Marque um trecho da página. No celular, mantenha o dedo pressionado e ajuste os marcadores.</li>
+      <li>O trecho aparecerá abaixo. Você também pode escrever ou corrigir o texto.</li>
+      <li>Escolha uma voz e toque em <b>Ler meu texto</b>.</li>
+    </ol>
+    <p class="reader-hint">Se o painel cobrir o texto, feche pelo ×, selecione o trecho e abra “Ler texto” novamente.</p>
+    <label class="reader-label" for="readerText">Texto para ler</label>
+    <textarea id="readerText" class="form-control reader-text" rows="4" placeholder="Selecione um trecho na página ou escreva aqui o que deseja ouvir."></textarea>
+    <p id="readerStatus" class="reader-status" role="status" aria-live="polite">Dica: arraste sobre as palavras da página para selecionar um trecho.</p>
+    <label class="reader-label" for="readerVoice">Voz de leitura</label>
+    <select id="readerVoice" class="form-select reader-select" aria-describedby="readerVoiceHint">
+      <option value="">Voz padrão do navegador · Português (Brasil)</option>
+    </select>
+    <small id="readerVoiceHint" class="reader-hint">As vozes disponíveis dependem do seu navegador.</small>
+    <div class="reader-controls">
+      <button id="readerReadBtn" class="reader-action reader-primary" type="button">🔊 Ler meu texto</button>
+      <button id="readerPageBtn" class="reader-action" type="button">Ler página toda</button>
+      <button id="readerPauseBtn" class="reader-action" type="button">Pausar</button>
+      <button id="readerStopBtn" class="reader-action" type="button">Parar</button>
+    </div>
+  </aside>
+  <div class="toast-container position-fixed bottom-0 start-50 translate-middle-x p-3"><div id="toast" class="toast align-items-center text-bg-dark border-0"><div class="d-flex"><div id="toastText" class="toast-body">Pronto</div><button class="btn-close btn-close-white me-2 m-auto" data-bs-dismiss="toast"></button></div></div></div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="app.js"></script>
+  <script src="features.js"></script>
+</body>
+</html>
